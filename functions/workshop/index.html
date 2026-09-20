@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11110e">
+  <meta name="description" content="MR Battalion function exhibit.">
+  <title>MR Battalion Functions</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2333461d'/%3E%3Cpath d='M5 23V9h5l6 7 6-7h5v14h-5v-7l-6 7-6-7v7z' fill='%23f2e7cc'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css?v=6">
+</head>
+<body class="detail-page" data-function="workshop">
+  <div class="top-rule"></div>
+  <main>
+    <header class="detail-head">
+      <div>
+        <p class="detail-index" data-index></p>
+        <h1 class="detail-title" data-title></h1>
+        <p class="detail-subtitle" data-subtitle></p>
+      </div>
+    </header>
+    <section class="visual-stage" aria-label="Animated function visual">
+      <img data-animation src="" alt="" width="1280" height="240" fetchpriority="high" decoding="async">
+      <button class="visual-action" type="button" data-open-viewer aria-label="View animation full screen">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+      </button>
+    </section>
+    <section class="copy-layout">
+      <div class="copy" data-copy></div>
+      <aside class="why">
+        <p class="why-label">WHY IT MATTERS</p>
+        <p data-why></p>
+      </aside>
+    </section>
+  </main>
+  <nav class="nav-bar" aria-label="Function navigation" hidden aria-hidden="true">
+    <a data-previous href="/"><span aria-hidden="true">‹</span><span class="nav-label-wide">Previous</span><span class="nav-label-short">Prev</span></a>
+    <a href="/">All Functions</a>
+    <a data-next href="/"><span>Next</span><span aria-hidden="true">›</span></a>
+  </nav>
+  <div class="fullscreen-view" data-viewer aria-hidden="true" role="dialog" aria-label="Full-screen animation">
+    <img data-animation src="" alt="">
+    <button class="visual-action fullscreen-close" type="button" data-close-viewer aria-label="Close full screen">×</button>
+  </div>
+  <script src="/functions.js"></script>
+  <script src="/detail.js"></script>
+</body>
+</html>
