@@ -122,13 +122,13 @@ window.MR_FUNCTIONS = [
   },
   {
     slug: "scouts",
-    title: "SCOUTS",
+    title: "ARMOURED SCOUTS",
     subtitle: "Reconnaissance ahead of the force",
-    why: "Scouts see first, report early and provide the information that enables action.",
+    why: "Armoured Scouts see first, report early and provide the information that enables action.",
     paragraphs: [
-      "Scouts operate ahead of the main force to observe terrain, routes and activity. Their forward position allows them to identify what may affect the battalion before its main elements move into the area.",
-      "Observation becomes useful when it is reported early and clearly. Scouts pass what they see to Headquarters, helping the battalion build a more accurate picture of the environment and reduce uncertainty before committing the force.",
-      "Timely reconnaissance supports better-informed decisions. By revealing conditions ahead and updating commanders as the situation develops, Scouts help the battalion choose how and when to move with greater confidence."
+      "Armoured Scouts operate ahead of the main force to observe terrain, routes and activity. Their forward position allows them to identify what may affect the battalion before its main elements move into the area.",
+      "Observation becomes useful when it is reported early and clearly. Armoured Scouts pass what they see to Headquarters, helping the battalion build a more accurate picture of the environment and reduce uncertainty before committing the force.",
+      "Timely reconnaissance supports better-informed decisions. By revealing conditions ahead and updating commanders as the situation develops, Armoured Scouts help the battalion choose how and when to move with greater confidence."
     ]
   }
 ];

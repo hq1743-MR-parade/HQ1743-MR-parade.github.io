@@ -16,7 +16,7 @@ if (!item) {
   document.querySelector("[data-why]").textContent = item.why;
   document.querySelector("[data-copy]").innerHTML = item.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("");
   document.querySelectorAll("[data-animation]").forEach((image) => {
-    image.src = `/media/function-${number}.webp?v=9`;
+    image.src = `/media/function-${number}.webp?v=10`;
     image.alt = `${item.title}: animated three-part visual`;
   });
   const previousLink = document.querySelector("[data-previous]");
